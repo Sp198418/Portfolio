@@ -3,9 +3,10 @@
     top: 0;
     height: 100px;
     width: 97vw;
-    background-color: rgb(97, 218, 251, 0.9);
+    background:rgba(0, 0, 0, .8);
+    background-position: fixed;
     padding-right: 3vw;
-    z-index: 1;
+    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,6 +23,15 @@
   }
 
   .link{
-    color: black;
+    color: #b0b2c3;
     text-decoration: none;
+    font-size: 1.5em;
   }
+
+  .link:hover{
+    color: red;
+    cursor: pointer;
+    transition: color .40s ease;
+  }
+
+ 

@@ -1,0 +1,122 @@
+.Portfolio{
+    background-image:url('https://ak.picdn.net/shutterstock/videos/29911030/thumb/1.jpg');
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100vh;
+    width: 100%;
+    align-items: center;
+    top: 0px;
+    color: white;
+    font-size:1.5em ;
+    z-index: 1;
+
+ 
+}
+
+.projectCard{
+ height: 300px;
+ width: 400px;
+ background-color: rgba(214, 58, 58, 0.9);
+ background-size: cover;
+ background-position: center;
+ margin: 5px;
+ overflow: hidden;
+ opacity: .5;
+}
+
+
+.projectCard:hover{
+    box-shadow: 5px 5px 6px 8px rgb(0, 0, 0, .9);
+    opacity: 100;
+
+}
+
+.projectsLink{
+    color: yellow
+}
+.technologies{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    
+}
+
+.technologies ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.filter{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.cardDesc{
+    padding-top: 15px;
+}
+
+.filter div{
+    margin: 0 15px;
+    color: rgb(113, 108, 143);
+    
+}
+
+.filter li:hover{
+    cursor: pointer;
+    color: red;
+    transition: all .5s;
+}
+
+.projectImage{
+    height: 100%;
+    width: 100%;
+    position: static;
+    display: contents;
+}
+
+.bar{
+    display: block;
+    position: absolute;
+    height: 24px;
+    background-color: red;
+    width: 400px;
+    color: white;
+    z-index: 10;
+}
+
+.shrink{
+    animation: shrink 1.5s ease forwards;
+}
+
+@keyframes shrink{
+    0%{
+        height: 300px;
+        width: 400px;
+        transform: scale(1);
+    }
+
+    50%{
+        height:120px;
+        width:120px;
+        transform: scale(5);
+    }
+
+    100%{
+        box-shadow: none;
+        height: 0%;
+        width: 0%;
+        transform: scale(0);
+        position:absolute
+    }
+}
