@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Resume.css';
+import resume from './resumeimg.png'
 
 class Resume extends Component {
     constructor(props){
@@ -12,7 +13,9 @@ class Resume extends Component {
 
         return(
             <div className= 'Resume' name= 'Resume'>
-             <h1>Resume</h1>
+             <img src={resume}/>
+             
+
              
             </div>
         

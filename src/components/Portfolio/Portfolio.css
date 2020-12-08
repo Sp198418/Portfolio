@@ -34,7 +34,7 @@
 }
 
 .projectsLink{
-    color: yellow
+    color: yellow;
 }
 .technologies{
     display: flex;
@@ -48,6 +48,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    color:yellow;
 }
 
 .projects{
@@ -64,6 +65,8 @@
 
 .cardDesc{
     padding-top: 15px;
+    font-size: 25px;
+    color: yellow;
 }
 
 .filter div{

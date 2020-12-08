@@ -22,21 +22,21 @@ class Portfolio extends Component {
                 url: ' https://sp198418.github.io/TRONJS/',
                 title: 'Tron game',
                 desc: 'video game application',
-                tech: ['JavaScript', 'HTML', 'CSS', 'All Projects'],
+                tech: ['JavaScript', ', HTML', ', CSS', 'All Projects'],
                 img: '/Assets/buttonLandpage.png',
             },
             {
-                url: ' https://sp198418.github.io/Cal-Project/',
+                url: ' https://sp198418.github.io/Calculator-Project/',
                 title: 'Calculator',
                 desc: 'web designed calculator application',
-                tech: ['JavaScript', 'HTML', 'CSS', 'All Projects'],
+                tech: ['JavaScript', ', HTML', ', CSS', 'All Projects'],
                 img: '/Assets/Calcscreenshot.jpg',
             },
             {
-                url: ' https://sp198418.github.io/NotFlix/.',
+                url: 'https://github.com/Sp198418/NotFlix/tree/main/OMDAPI',
                 title: 'Notflix',
-                desc: 'Netflix model application using IMDB API',
-                tech: ['JavaScript', 'HTML', 'CSS', 'FullStack' , 'All Projects'],
+                desc: 'Netflix model application',
+                tech: ['JavaScript', ', HTML', ', CSS', ', FullStack' , 'All Projects'],
                 img: '/Assets/Notflixscreenshot.jpg',
             },
             
@@ -54,16 +54,16 @@ class Portfolio extends Component {
                             <a href={projects.url} className='projectsLink'>
 
                                 <div className='bar'>{projects.title}</div>
+                                </a>
 
                                 <img className='projectImage' alt={projects.title} src={projects.img} />
-                                <p className="cardDesc"> {projects.desc}</p>
                                 <div className='technologies'><ul>{projects.tech.map((tech, index) => {
                                     return tech !== 'All Projects' ? <li key={index} value={tech} onClick={this.handleInputChange}>{tech}</li> : ''
                                 })}</ul>
 
                                 </div>
 
-                            </a>
+                           
                         </div>
                            
                     )

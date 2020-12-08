@@ -12,7 +12,10 @@ class Contact extends Component {
 
         return(
             <div className= 'Contact'>
-             <h1>You can reach me by Email: samuelpierrelouis10@gmail.com</h1>
+             <h1>You can reach me by Email: samuelpierrelouis10@gmail.com
+                 <br/>
+                 LinkedIn: linkedin.com/in/samuelpl
+             </h1>
              
             </div>
         

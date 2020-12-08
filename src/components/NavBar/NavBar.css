@@ -29,7 +29,7 @@
   }
 
   .link:hover{
-    color: red;
+    color: white;
     cursor: pointer;
     transition: color .40s ease;
   }
