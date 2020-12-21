@@ -10,7 +10,43 @@
     font-size:1.5em ;
     z-index: 1;
     margin: auto;
-    background-image:url('https://steamuserimages-a.akamaihd.net/ugc/965343738220088937/5615A5CC996AF09546BA1C74EFF8FEF6AD8700D6/');
+    background-image:url('https://www.watertecindia.com/images/ReflectingPotableArgentinehornedfrog-size_restricted.gif');
+    background-size:cover;
     font-size: larger;
     font-family:Arial;
+}
+
+a {
+    color:rgb(241, 236, 236);
+    
+}
+
+a :hover{
+    color: white;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    color: white;
+    height: 80px;
+    width: 80px;
+ }
+
+ .gitubLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+
+ }
+
+ .gitubLogo :hover{
+   color:  #eef0ec;
+   border-radius: 50px;
+   position: relative; 
+   top: -1px;   
 }

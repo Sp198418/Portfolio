@@ -39,6 +39,13 @@ class Portfolio extends Component {
                 tech: ['JavaScript', ', HTML', ', CSS', ', FullStack' , 'All Projects'],
                 img: '/Assets/Notflixscreenshot.jpg',
             },
+            {
+                url: 'https://github.com/Sp198418/BankingApplication.java/commit/3d6d2cc73c30c038fed40d5a3deeae3e7705b6ac',
+                title: 'Banking Application',
+                desc: 'Personal banking make deposits, withdraws etc.',
+                tech: ['Java', 'All Projects'],
+                img: '/Assets/Bankingapp.png',
+            },
             
         ];
 
@@ -84,6 +91,8 @@ class Portfolio extends Component {
                     <li onClick={this.handleInputChange}>CSS</li>
                     <div>|</div>
                     <li onClick={this.handleInputChange}>JavaScript</li>
+                    <div>|</div>
+                    <li onClick={this.handleInputChange}>Java</li>
                     <div>|</div>
                     <li onClick={this.handleInputChange}>FullStack</li>
                 </ul>

@@ -1,4 +1,4 @@
-import logo from '../../LogoMakr-12QwPa.png';
+import logo from '../../LogoMakr-2QvumV.png'
 
 
 function Logo () {
