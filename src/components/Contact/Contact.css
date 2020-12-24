@@ -27,6 +27,7 @@ a :hover{
 
 .logo{
     display: flex;
+    justify-content: center;
     flex-direction: row;
     justify-content: center; 
     align-items: center;
@@ -49,4 +50,16 @@ a :hover{
    border-radius: 50px;
    position: relative; 
    top: -1px;   
+}
+
+
+.Container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(148, 143, 143, 0.7);
+    height: 600px;
+    width: 800px;
+    border-radius: 10px;
 }
