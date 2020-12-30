@@ -12,8 +12,8 @@ class Portfolio extends Component {
     }
 
     handleInputChange = (event) => {
-        this.setState({filter: event.target.innerText})
-        
+        this.setState({ filter: event.target.innerText })
+
     }
 
     createCard = () => {
@@ -36,7 +36,7 @@ class Portfolio extends Component {
                 url: 'https://github.com/Sp198418/NotFlix/tree/main/OMDAPI',
                 title: 'Notflix',
                 desc: 'Netflix model application',
-                tech: ['JavaScript', ', HTML', ', CSS', ', FullStack' , 'All Projects'],
+                tech: ['JavaScript', ', HTML', ', CSS', ', FullStack', 'All Projects'],
                 img: '/Assets/Notflixscreenshot.jpg',
             },
             {
@@ -46,7 +46,7 @@ class Portfolio extends Component {
                 tech: ['Java', 'All Projects'],
                 img: '/Assets/Bankingapp.png',
             },
-            
+
         ];
 
         return (
@@ -59,20 +59,21 @@ class Portfolio extends Component {
                             style={{ backgroundImage: `url(${projects.img || this.state.backgroundImage})` }}>
 
                             <a href={projects.url} className='projectsLink'>
-
+                           
+                                <img className='projectImage' alt={projects.title} src={projects.img} />
                                 <div className='bar'>{projects.title}</div>
                                 </a>
+                            
+                            <div className='technologies'><ul>{projects.tech.map((tech, index) => {
+                                return tech !== 'All Projects' ? <li key={index} value={tech} onClick={this.handleInputChange}>{tech}</li> : ''
+                            })}</ul>
 
-                                <img className='projectImage' alt={projects.title} src={projects.img} />
-                                <div className='technologies'><ul>{projects.tech.map((tech, index) => {
-                                    return tech !== 'All Projects' ? <li key={index} value={tech} onClick={this.handleInputChange}>{tech}</li> : ''
-                                })}</ul>
+                            </div>
+                            
 
-                                </div>
 
-                           
                         </div>
-                           
+
                     )
                 })
         )
@@ -97,6 +98,7 @@ class Portfolio extends Component {
                     <li onClick={this.handleInputChange}>FullStack</li>
                 </ul>
                 <h3>I'm a always looking to experiment with new technologies and improve on my abilies</h3>
+                <p>Click the title to view each project</p>
                 <div className="projects">
                     {this.createCard()}
                 </div>
