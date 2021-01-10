@@ -12,7 +12,7 @@ class About extends Component {
 
         return(
             <div className= 'About' name= 'About'>
-             <h1> I'm Samuel Pierre Louis, a Software enginner based in New York. I specialize in creating the best user interface experience.
+             <h1> I'm Samuel, a Software enginner based in New York. I specialize in creating the best user interface experience.
                  I have strong critical thinking abilities and problem solving skills also able to learn new concepts quickly.
                  </h1>
                     <h2>Here are a few technologies I've been working with recently:

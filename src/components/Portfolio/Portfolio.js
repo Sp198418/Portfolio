@@ -97,7 +97,7 @@ class Portfolio extends Component {
                     <div>|</div>
                     <li onClick={this.handleInputChange}>FullStack</li>
                 </ul>
-                <h3>I'm a always looking to experiment with new technologies and improve on my abilies</h3>
+                <h3>I am always looking to experiment with new technologies and improve on my abilies</h3>
                 <p>Click the title to view each project</p>
                 <div className="projects">
                     {this.createCard()}
