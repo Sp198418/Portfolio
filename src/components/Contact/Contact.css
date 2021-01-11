@@ -10,8 +10,11 @@
     font-size:1.5em ;
     z-index: 1;
     margin: auto;
-    background-image:url('https://png.pngtree.com/thumb_back/fw800/back_our/20190622/ourmid/pngtree-blue-light-effect-particle-banner-background-image_213574.jpg`');
-    background-size:cover;
+    background-image:url('https://png.pngtree.com/thumb_back/fw800/back_our/20190622/ourmid/pngtree-blue-light-effect-particle-banner-background-image_213574.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: larger;
     font-family:Arial;
 }
@@ -36,7 +39,7 @@ a :hover{
     width: 80px;
  }
 
- .gitubLogo{
+ .gitLogo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +48,7 @@ a :hover{
 
  }
 
- .gitubLogo :hover{
+ .gitLogo :hover{
    color:  #eef0ec;
    border-radius: 50px;
    position: relative; 

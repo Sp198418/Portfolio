@@ -16,10 +16,10 @@ class Contact extends Component {
             <div className='Contact'>
                 <div className="Container">
                     <div className='logo'>
-                        <div className='gitubLogo'>
+                        <div className='gitLogo'>
                             <a className='logo' href='https://github.com/Sp198418' target='blank'>{<FontAwesomeIcon icon={faGithub} size='lg' />}</a>
                         </div>
-                        <div className='gitubLogo'>
+                        <div className='gitLogo'>
                             <a className='logo' href='https://www.linkedin.com/in/samuelpl/' target='blank'>{<FontAwesomeIcon icon={faLinkedin} size='lg' />}</a>
                         </div>
 

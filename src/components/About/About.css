@@ -9,6 +9,9 @@
     font-size:1.em ;
     z-index: 1;
     background-image:url('https://cdn.wallpapersafari.com/76/38/3YF67d.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
