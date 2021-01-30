@@ -34,4 +34,10 @@
     transition: color .40s ease;
   }
 
- 
+ @media all and (max-width:500px){
+   .NavBar{
+     position:fixed;
+     display: flex;
+     width:588px;
+   }
+ }

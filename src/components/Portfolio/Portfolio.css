@@ -137,3 +137,26 @@
         position:absolute
     }
 }
+
+@media all and (max-width:500px){
+    .Portfolio{
+        
+        width: 600px;
+        justify-content: center;
+        font-size:small;
+        background-attachment: fixed;
+   
+    }
+    .projectCardShowing{
+        width: 200px;
+        height: 200px;
+    }
+    .bar{
+        height: 15px;
+        width: 200px;
+    }
+    .cardDesc{
+        display: flex;
+        font-size:10px;
+    }
+}

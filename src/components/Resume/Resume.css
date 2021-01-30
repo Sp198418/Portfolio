@@ -17,3 +17,11 @@
     z-index: 1;
     
 }
+
+@media all and (max-width:500px){
+    .Resume{
+        display: flex;
+        width: 600px;
+        padding-bottom: 150px;
+    }
+}

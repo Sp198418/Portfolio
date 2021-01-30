@@ -97,3 +97,21 @@
     transform: rotate(360deg);
   }
 }
+
+@media all and (max-width:500px){
+  .landingImage .overlay{
+    display: flex;
+    position: relative;
+    width: 500px;
+  }
+  .App{
+    display: flex;
+    position: relative;
+    padding-right: 100px;
+    margin:0px;
+    width: 500px;
+  }
+  .container{
+    width: 500px;
+  }
+}

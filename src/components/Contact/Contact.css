@@ -66,3 +66,15 @@ a :hover{
     width: 800px;
     border-radius: 10px;
 }
+
+@media all and (max-width:500px){
+    .Contact{
+        display: flex;
+        width: 600px;
+        font-size:small;
+    }
+    .Container{
+        width: 525px;
+        height: 300px;
+    }
+  }

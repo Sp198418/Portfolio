@@ -15,3 +15,10 @@
     background-size: cover;
 }
 
+@media all and (max-width:500px){
+    .About{
+        display: flex;
+        width: 600px;
+        font-size: .5em;
+    }
+}
