@@ -62,7 +62,7 @@ a :hover{
     display: flex;
     flex-wrap: wrap;
     background-color: rgba(71, 113, 148, 0.876);
-    height: 600px;
+    height: 500px;
     width: 800px;
     border-radius: 10px;
 }
