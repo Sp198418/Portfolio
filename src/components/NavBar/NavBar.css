@@ -38,6 +38,6 @@
    .NavBar{
      position:fixed;
      display: flex;
-     width:588px;
+     width:100%;
    }
  }
