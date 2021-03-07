@@ -33,7 +33,7 @@ class Portfolio extends Component {
                 img: '/Assets/Calcscreenshot.jpg',
             },
             {
-                url: 'https://github.com/Sp198418/NotFlix/tree/main/OMDAPI',
+                url: 'https://sp198418.github.io/NotFlix/',
                 title: 'Notflix',
                 desc: 'Netflix model application',
                 tech: ['JavaScript', ',', 'HTML',  ',', 'CSS',  ',', 'FullStack', 'All Projects'],
@@ -53,7 +53,7 @@ class Portfolio extends Component {
             allProjects
                 .map((projects, index) => {
                     return (
-                        <a href={projects.url} className='projectsLink'
+                        <a href={projects.url}  target='blank' className='projectsLink'
                             key={index}
                             className={!projects.tech.includes(this.state.filter) ? 'projectCardHidden' : 'projectCardShowing'}
                             style={{ backgroundImage: `url(${projects.img || this.state.backgroundImage})` }}>
