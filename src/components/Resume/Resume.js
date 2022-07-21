@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Resume.css';
-import resume from './resumeimg.png'
+import resume from './resumeupdate.jpeg'
 
 class Resume extends Component {
     constructor(props){
